@@ -12,7 +12,12 @@ h1{
 	color:#145A99;
 }
 
-
+#powrot{
+	text-align: left;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
 #elementy{
 	background: #FFFFFF;
 	width: 700px;
@@ -35,18 +40,20 @@ h1{
 	font-weight: bold;
 }
 
-#tekst p{
+.tekst p{
 	text-align: justify;
 }
 
-#tekst h2{
+.tekst h2{
 	font-size: larger;
 }
 
 a{
 	color:#145A99;
 }
+
 .orange{color:orange;font-weight:bold}
+
 #menu a{
 	color:#001582;
 	padding: 3px;
@@ -68,10 +75,24 @@ a{
 #flagi img{
 	width:100px;
 	height:62px;
-
-	/*float:left;*/}
+}
 
 #flagi {
 	background: url(flagi.png);
+	height:	62px;
+}
+
+#gflaga {
+	background: url(grecja-flaga.png);
+	height:	62px;
+}
+
+#hflaga {
+	background: url(hiszpania-flaga.png);
+	height:	58px;
+}
+
+#lflaga {
+	background: url(wielka-brytania-flaga.png);
 	height:	62px;
 }
